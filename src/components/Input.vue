@@ -10,7 +10,7 @@ export default {
   },
   methods: {
     updatedValue(value) {
-      this.$emit("updateValue", value);
+      this.$emit("update:value", value);
     },
   },
 };

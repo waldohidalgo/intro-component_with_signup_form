@@ -135,7 +135,7 @@ export default {
             :isValid="getField(propertyName).isValid"
             :messageError="messageError"
             :isSubmitForm="isSubmitForm"
-            @updateValue="updatedValue(propertyName, $event)"
+            @update:value="updatedValue(propertyName, $event)"
           />
 
           <button
