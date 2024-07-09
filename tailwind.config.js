@@ -14,7 +14,7 @@ export default {
         grayishBlue: "hsl(246, 25%, 77%)",
       },
       boxShadow: {
-        button1: "0 8px 0 0 hsla(249, 10%, 26%, 0.5)",
+        button1: "0 8px 0 0 hsla(249, 10%, 26%, 0.4)",
         button2: "0 -2px 0 1px rgba(0, 0, 0, 0.15) inset",
       },
     },

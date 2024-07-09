@@ -81,13 +81,13 @@ export default {
     ></div>
 
     <div
-      class="flex flex-col p-[100px_29px] lg:flex-row md:p-[62px_15px] xl:p-[50px_166px]"
+      class="flex flex-col p-[100px_29px] lg:flex-row md:p-[62px_15px] xl:p-[50px_150px_114px_166px]"
     >
       <div
         class="w-full lg:w-[51.1%] lg:flex lg:flex-col lg:justify-center lg:items-start lg:gap-[15px]"
       >
         <h2
-          class="text-center text-white text-[30px] font-bold leading-[41px] lg:text-start lg:text-[49px] lg:mt-[80px] lg:leading-[56px]"
+          class="text-center text-white text-[30px] font-bold leading-[41px] lg:text-start lg:text-[49px] lg:mt-[73px] lg:leading-[56px]"
         >
           Learn to code by watching others
         </h2>
@@ -107,7 +107,7 @@ export default {
           thereafter
         </button>
         <form
-          class="mt-[25px] bg-white p-[28px_25px] flex flex-col rounded-[8px] gap-[18px] lg:p-[40px_42px]"
+          class="mt-[25px] bg-white p-[28px_25px] flex flex-col rounded-[8px] gap-[18px] lg:p-[40px_42px] shadow-button1"
           @submit.prevent="submitForm"
         >
           <InputForm
