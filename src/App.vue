@@ -92,7 +92,7 @@ export default {
           Learn to code by watching others
         </h2>
         <p
-          class="text-white text-center text-[18px] mt-[25px] leading-[28px] lg:text-start lg:mt-[10px] lg:text-[16px] lg:leading-[26px]"
+          class="text-white text-center text-[18px] mt-[25px] leading-[28px] lg:text-start lg:mt-[10px] lg:text-[16px] lg:leading-[26px] lg:pe-[46px]"
         >
           See how experienced developers solve problems in real-time. Watching
           scripted tutorials is great, but understanding how developers think is
@@ -144,5 +144,5 @@ export default {
       </div>
     </div>
   </main>
-  <!-- <Footer /> -->
+  <Footer />
 </template>
