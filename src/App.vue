@@ -63,6 +63,18 @@ export default {
     getField(propertyName) {
       return this[propertyName];
     },
+    updatedValue(propertyName, value) {
+      this[propertyName].value = value;
+      if (["firstName", "lastName", "password"].includes(propertyName)) {
+        this[propertyName].isValid = value.trim().length > 0;
+        return;
+      }
+      if (["email"].includes(propertyName)) {
+        this[propertyName].isValid =
+          /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value);
+        return;
+      }
+    },
   },
   components: {
     InputForm,
@@ -123,7 +135,7 @@ export default {
             :isValid="getField(propertyName).isValid"
             :messageError="messageError"
             :isSubmitForm="isSubmitForm"
-            @updateValue="getField(propertyName).value = $event"
+            @updateValue="updatedValue(propertyName, $event)"
           />
 
           <button
