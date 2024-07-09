@@ -31,7 +31,7 @@ export default {
         </svg>
       </div>
       <input
-        class="w-full text-darkBlue border-grayishBlue border-[1px] rounded-[5px] p-[18px_20px] placeholder:text-darkBlue placeholder:font-semibold font-semibold lg:p-[21px_33px] focus:outline focus:outline-blue"
+        class="w-full text-darkBlue border-grayishBlue border-[1px] rounded-[5px] p-[18px_20px] placeholder:text-darkBlue placeholder:font-semibold font-semibold lg:p-[17px_26px] lg:text-[14px] focus:outline focus:outline-blue"
         :name="name"
         :class="{
           'border-red border text-red': !isValid && isSubmitForm,

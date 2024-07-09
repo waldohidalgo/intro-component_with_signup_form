@@ -81,18 +81,18 @@ export default {
     ></div>
 
     <div
-      class="flex flex-col p-[100px_29px] lg:flex-row md:p-[62px_15px] xl:p-[62px_183px]"
+      class="flex flex-col p-[100px_29px] lg:flex-row md:p-[62px_15px] xl:p-[50px_166px]"
     >
       <div
         class="w-full lg:w-[51.1%] lg:flex lg:flex-col lg:justify-center lg:items-start lg:gap-[15px]"
       >
         <h2
-          class="text-center text-white text-[30px] font-bold leading-[41px] lg:text-start lg:text-[54px] lg:mt-[92px] lg:leading-[60px]"
+          class="text-center text-white text-[30px] font-bold leading-[41px] lg:text-start lg:text-[49px] lg:mt-[80px] lg:leading-[56px]"
         >
           Learn to code by watching others
         </h2>
         <p
-          class="text-white text-center text-[18px] mt-[25px] leading-[28px] lg:text-start lg:mt-[19px]"
+          class="text-white text-center text-[18px] mt-[25px] leading-[28px] lg:text-start lg:mt-[10px] lg:text-[16px] lg:leading-[26px]"
         >
           See how experienced developers solve problems in real-time. Watching
           scripted tutorials is great, but understanding how developers think is
@@ -101,13 +101,13 @@ export default {
       </div>
       <div class="w-full lg:w-[48.9%]">
         <button
-          class="bg-blue text-white rounded-[11px] min-[375px]:px-[60px] py-[19px] mt-[72px] leading-[30px] text-[17px] shadow-button1 w-full hover:bg-blue/80"
+          class="bg-blue text-white rounded-[11px] min-[375px]:px-[60px] py-[19px] mt-[72px] leading-[30px] text-[17px] shadow-button1 w-full hover:bg-blue/80 lg:py-[14px] lg:text-[15.5px] lg:mt-[78px]"
         >
           <span class="font-bold">Try it free 7 days</span> then $20/mo.
           thereafter
         </button>
         <form
-          class="mt-[25px] bg-white p-[28px_25px] flex flex-col rounded-[8px] gap-[18px] lg:p-[40px_47px]"
+          class="mt-[25px] bg-white p-[28px_25px] flex flex-col rounded-[8px] gap-[18px] lg:p-[40px_42px]"
           @submit.prevent="submitForm"
         >
           <InputForm
