@@ -81,7 +81,7 @@ export default {
     ></div>
 
     <div
-      class="flex flex-col p-[100px_29px] lg:flex-row md:p-[62px_15px] xl:p-[50px_150px_114px_166px]"
+      class="flex flex-col p-[100px_29px] lg:flex-row md:p-[62px_15px] xl:p-[50px_164px_114px_166px]"
     >
       <div
         class="w-full lg:w-[51.1%] lg:flex lg:flex-col lg:justify-center lg:items-start lg:gap-[15px]"
