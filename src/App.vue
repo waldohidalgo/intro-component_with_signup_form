@@ -144,5 +144,5 @@ export default {
       </div>
     </div>
   </main>
-  <Footer />
+  <!-- <Footer /> -->
 </template>
